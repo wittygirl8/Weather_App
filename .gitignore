@@ -1,4 +1,4 @@
 node_modules
-heroku-x64
-package
-package-lock
+heroku-x64.exe
+package.json
+package-lock.json

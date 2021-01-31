@@ -12,6 +12,10 @@ const replaceVal= (tempVal, orgVal) => {
     return temperature;
 }
 
+const inp;
+function oncl(){
+    const inp=document.getElementsByClassName(inputValue);
+}
 const server =http.createServer((req,res) => {
     if(req.url == "/"){
         requests('http://api.openweathermap.org/data/2.5/weather?q=Chennai&units=metric&appid=5e549ce893713ddae68c0a4dfb06cb07'
